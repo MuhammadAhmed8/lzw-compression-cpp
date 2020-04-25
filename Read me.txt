@@ -1,10 +1,11 @@
-LZW is used to compress text files.
+LZW algorithm for compression text files.
+It works on 256 asci characters.
 
-Trie is used as a dictionary for compression.Trie
-contains a hashmap to store pointers to its children.
+Data-Structures Used:
+- Trie
+- A hashmap is used to store children of each Trie node
 
-Decompression uses a dynamic array of strings since the code
-size is fixed.
+16 bit trie based dictionary is used, and is flushed after every 65,536 entries. 
+Variable sized codes are written to the compressed file.
 
-The LZW algorithm uses a 16-bit dictionary, and 
-it is flushed after it is filled up with 2 << bits - 1  or 65535 entries.
+////// This was my semester project for the Data Structures' Course in my sophomore year /////////
