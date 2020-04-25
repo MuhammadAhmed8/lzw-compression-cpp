@@ -1,0 +1,10 @@
+LZW is used to compress text files.
+
+Trie is used as a dictionary for compression.Trie
+contains a hashmap to store pointers to its children.
+
+Decompression uses a dynamic array of strings since the code
+size is fixed.
+
+The LZW algorithm uses a 16-bit dictionary, and 
+it is flushed after it is filled up with 2 << bits - 1  or 65535 entries.
