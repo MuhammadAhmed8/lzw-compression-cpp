@@ -8,4 +8,6 @@ Data-Structures Used:
 16 bit trie based dictionary is used, and is flushed after every 65,536 entries. 
 Variable sized codes are written to the compressed file.
 
+//Words.txt, bible.txt are test data files.
+
 ////// This was my semester project for the Data Structures' Course in my sophomore year /////////
